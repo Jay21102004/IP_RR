@@ -1,0 +1,68 @@
+/* src/styles/HomePage.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-title h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.hotel-categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.category {
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: #45a049;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.category:hover {
+  background-color: #388e3c;
+}
+
+.about-section {
+  margin-top: 50px;
+  background: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #4CAF50;
+}
